@@ -1,0 +1,8 @@
+E:\9-Github\Login-Csharp\Word-Login\Word-Login\bin\Debug\Word-Login.exe.config
+E:\9-Github\Login-Csharp\Word-Login\Word-Login\bin\Debug\Word-Login.exe
+E:\9-Github\Login-Csharp\Word-Login\Word-Login\bin\Debug\Word-Login.pdb
+E:\9-Github\Login-Csharp\Word-Login\Word-Login\obj\Debug\Word-Login.csprojResolveAssemblyReference.cache
+E:\9-Github\Login-Csharp\Word-Login\Word-Login\obj\Debug\Word_Login.MainForm.resources
+E:\9-Github\Login-Csharp\Word-Login\Word-Login\obj\Debug\Word-Login.csproj.GenerateResource.Cache
+E:\9-Github\Login-Csharp\Word-Login\Word-Login\obj\Debug\Word-Login.exe
+E:\9-Github\Login-Csharp\Word-Login\Word-Login\obj\Debug\Word-Login.pdb
