@@ -23,11 +23,52 @@ namespace Word_Login
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
-			InitializeComponent();
-			
+			InitializeComponent();			
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		void MainFormLoad(object sender, EventArgs e)
+		{
+			Usuario.Focus();
+		}
+		void FecharClick(object sender, EventArgs e)
+		{
+			Application.Exit();
+		}
+		void CodigoTextChanged(object sender, EventArgs e)
+		{
+			Codigo.PasswordChar = '*';
+		}
+		void UsuarioTextChanged(object sender, EventArgs e)
+		{
+	
+		}
+		void LimparClick(object sender, EventArgs e)
+		{
+			Usuario.Clear();
+			Codigo.Clear();
+			Usuario.Focus();
+		}
+		void EntrarClick(object sender, EventArgs e)
+		{
+			if (Usuario.Text == "SS" && Codigo.Text == "1234")
+			{
+				new F2().Show();
+				this.Hide();
+			}
+			else
+			{
+				MessageBox.Show("Os Dados que introduziu estão incorretos.!");
+				Usuario.Clear();
+				Codigo.Clear();
+				Usuario.Focus();
+			}
+		}
+		void ErroClick(object sender, EventArgs e)
+		{
+			MessageBox.Show("Apoio ao Cliente: +244 947-363-496 ");
+		}
+		
 	}
 }
