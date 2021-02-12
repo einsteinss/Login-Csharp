@@ -69,6 +69,16 @@ namespace Word_Login
 		{
 			MessageBox.Show("Apoio ao Cliente: +244 947-363-496 ");
 		}
+		void FecharMouseHover(object sender, EventArgs e)
+		{
+			this.Fechar.BackColor = System.Drawing.Color.Black;
+			this.Fechar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+		}
+		void FecharMouseLeave(object sender, EventArgs e)
+		{
+			this.Fechar.BackColor = System.Drawing.Color.White;
+			this.Fechar.ForeColor = System.Drawing.SystemColors.ControlText;
+		}
 		
 	}
 }

@@ -69,7 +69,7 @@ namespace Word_Login
 			// pictureBox1
 			// 
 			this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-			this.pictureBox1.Location = new System.Drawing.Point(113, 8);
+			this.pictureBox1.Location = new System.Drawing.Point(118, 8);
 			this.pictureBox1.Name = "pictureBox1";
 			this.pictureBox1.Size = new System.Drawing.Size(64, 102);
 			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -80,7 +80,7 @@ namespace Word_Login
 			// 
 			this.label1.BackColor = System.Drawing.Color.Transparent;
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
-			this.label1.Location = new System.Drawing.Point(61, 111);
+			this.label1.Location = new System.Drawing.Point(66, 111);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(182, 32);
 			this.label1.TabIndex = 1;
@@ -141,14 +141,17 @@ namespace Word_Login
 			// 
 			// Fechar
 			// 
+			this.Fechar.BackColor = System.Drawing.Color.White;
 			this.Fechar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-			this.Fechar.Location = new System.Drawing.Point(92, 451);
+			this.Fechar.Location = new System.Drawing.Point(112, 444);
 			this.Fechar.Name = "Fechar";
-			this.Fechar.Size = new System.Drawing.Size(108, 19);
+			this.Fechar.Size = new System.Drawing.Size(76, 19);
 			this.Fechar.TabIndex = 7;
 			this.Fechar.Text = "Fechar";
 			this.Fechar.TextAlign = System.Drawing.ContentAlignment.TopCenter;
 			this.Fechar.Click += new System.EventHandler(this.FecharClick);
+			this.Fechar.MouseLeave += new System.EventHandler(this.FecharMouseLeave);
+			this.Fechar.MouseHover += new System.EventHandler(this.FecharMouseHover);
 			// 
 			// pictureBox2
 			// 
@@ -204,7 +207,7 @@ namespace Word_Login
 			// 
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
 			this.BackColor = System.Drawing.Color.White;
-			this.ClientSize = new System.Drawing.Size(295, 489);
+			this.ClientSize = new System.Drawing.Size(299, 489);
 			this.Controls.Add(this.Codigo);
 			this.Controls.Add(this.Usuario);
 			this.Controls.Add(this.pictureBox3);
